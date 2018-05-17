@@ -35,7 +35,7 @@ export function closeEdit() {
 
 export function patchNewGnome(gnome) {
   const { id } = gnome
-  console.log(id)
+  
   return (dispatch) => {
     return patchGnome(id, gnome)
     .then(() => {

@@ -7,7 +7,7 @@ import ErrorPage from '../../pages/error'
 /* Layout components */
 import Header from '../../components/header'
 import Footer from '../../components/footer'
-/* CSS page transtion animation */
+
 import style from './style.css'
 
 const Layout = () => {
