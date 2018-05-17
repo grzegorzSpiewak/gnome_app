@@ -17,7 +17,7 @@ Make sure you have Node.js installed on your working station (v8.11.1)
 
 ## Details
 
-## What can be done?
+## What was done?
 1. The app fetches all required data from provided API.
 2. The app allows to fetch and displays more gnomes if needed
 3. The app informs when there are no more gnomes to fetch or something went wrong during fetching
