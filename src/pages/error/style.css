@@ -1,0 +1,11 @@
+.red {
+  background: red;
+}
+
+.blue-on-hover:hover {
+  background: blue;
+}
+
+.home {
+  composes: red blue-on-hover;
+}

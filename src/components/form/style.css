@@ -1,0 +1,39 @@
+.field {
+  margin: 1em auto;
+  border: 1px solid #AF0075;
+  border-radius: .4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5em;
+}
+.label {
+  font-size: 1em;
+  font-weight: 700;
+}
+.textInput {
+  flex: 1;
+  margin: 0 1em;
+  padding: .64em;
+  color: #AF0075;
+  border: 1px solid #AF0075;
+  border-radius: .4em
+}
+.textInput:focus {
+  outline: none;
+}
+@media only screen and (max-width: 840px) {
+  .form {
+    text-align: center;
+  }
+  .label {
+    margin: .5em;
+  }
+  .textInput {
+    margin-bottom: .5em;
+  }
+  .field{
+    display: flex;
+    flex-direction: column;
+  }
+}

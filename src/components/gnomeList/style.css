@@ -1,0 +1,57 @@
+.gnomes {
+  margin: 0 auto;
+  padding: 1em 0 1em 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.list {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+.control {
+  padding: 1em 0 1em 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading {
+  font-size: 1em;
+  font-weight: 700;
+  margin: .5em;
+}
+@media only screen and (max-width: 840px) {
+  .heading {
+    text-align: center;
+  }
+}
+/** Animation for list **/
+.slideEnter {
+  opacity: 0;
+  transform: translate(-250px,0);
+  transform: translate3d(-250px,0,0)
+}
+.slideEnterActive {
+  opacity: 1;
+	transition: opacity 1s ease;
+	transform: translate(0,0);
+	transform: translate3d(0,0,0);
+	transition-property: transform, opacity;
+	transition-duration: 700ms;
+  transition-delay: 100ms;
+	transition-timing-function: cubic-bezier(0.175, 0.665, 0.320, 1), linear;
+}
+.slideExit {
+  opacity: 1;
+	transform: translate(0,0,0);
+	transform: translate3d(0,0,0);
+  transition-property: transform, opacity;
+	transition-duration: 300ms;
+	transition-timing-function: cubic-bezier(0.175, 0.665, 0.320, 1), linear;
+}
+.slideExitActive {
+  opacity: 0;
+	transform:   translate(250px,0);
+	transform: translate3d(250px,0,0);
+}

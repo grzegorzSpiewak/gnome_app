@@ -1,0 +1,43 @@
+.btn {
+  padding: .5em 1em.5em 1em;
+  background-color: #AF0075;
+  border: none;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+  border-radius: .4em;
+  outline: none;
+  text-transform: capitalize;
+  transition: all .5s ease-in;
+  cursor: pointer;
+}
+.btn:hover {
+  border: 1px solid #AF0075;
+  color: #AF0075;
+  background-color: transparent;
+}
+.small {
+  font-size: 1em;
+  width: 8em;
+}
+.big {
+  margin: 0 2em;
+  font-size: 1.2em;
+}
+.disabled {
+  opacity: .2;
+  cursor: not-allowed;
+}
+.btnSmall {
+  composes: small btn;
+}
+.btnBig {
+  composes: big btn;
+}
+.btnSmallDisabled {
+  composes: btn disabled small;
+}
+@media only screen and (max-width: 840px) {
+  .big {
+    display: none;
+  }
+}

@@ -1,0 +1,39 @@
+.wrap {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.progress {
+  flex: 3;
+  height: .8em;
+  background-color: #EDEEF2;
+  border-radius: .5em;
+  margin: 0 1em;
+}
+
+.fill {
+  background-color: #AF0075;
+  height: .8em;
+  border-radius: .5em;
+}
+
+.label {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.heading {
+  font-size: 1em;
+  margin: 0 1em;
+}
+
+.subheading {
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0 1em;
+  text-transform: capitalize;
+}

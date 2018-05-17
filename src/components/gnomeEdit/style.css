@@ -1,0 +1,50 @@
+.wrap {
+  margin: 2em auto;
+  width: 40em;
+  border: 1px solid #AF0075;
+  border-radius: .4em;
+  text-align: center;
+  padding-bottom: 1em;
+}
+.top {
+  background-color: #AF0075;
+  border-top-left-radius: .4em;
+  border-top-right-radius: .4em;
+  height: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  border: .6em solid #e7b2d5;
+  background-color: #FFFFFF;
+}
+.legend {
+  font-size: 2em;
+  font-weight: 500;
+  margin: 2em;
+  color: #AF0075;
+}
+.formWrap {
+  margin: 0 auto;
+  padding: .5em;
+  font-size: 1em;
+}
+@media only screen and (max-width: 840px) {
+  .wrap {
+    border: none;
+    width: 100%;
+    margin: 0;
+  }
+  .top {
+    border-radius: 0;
+  }
+  .legend {
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.2em;
+  }
+}

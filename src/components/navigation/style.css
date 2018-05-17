@@ -1,0 +1,27 @@
+.nav {
+  flex: 2;
+  padding: 0 1em 0 1em;
+}
+.list {
+  text-decoration: none;
+  list-style: none;
+}
+.item {
+  text-decoration: none;
+  background: transparent;
+  padding: 1em;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1.2em;
+  transition: all .4s ease-in;
+}
+.item:hover {
+  background: #AF0075;
+  border-radius: .2em;
+  color: #FFFFFF;
+}
+@media only screen and (max-width: 840px) {
+  .nav {
+    display: none;
+  }
+}
